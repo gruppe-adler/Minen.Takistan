@@ -11,7 +11,7 @@ while {!TRAITOR_FOUND} do {{
 };
 };
 
-[true,30,false,true,30,3,true,[]] execVM "headless\WerthlesHeadless.sqf";
+[true,30,false,false,15,5,true,[]] execVM "headless\WerthlesHeadless.sqf";
 
 asr_ai3_main_setskills = 0;
 	
