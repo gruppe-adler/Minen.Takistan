@@ -28,8 +28,6 @@ asr_ai3_main_setskills = 0;
 
 	diag_log "skill set for every ai unit";
 
-};
 
-if (true) exitWith {};
-    
+if (true) exitWith {};    
 	
