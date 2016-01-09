@@ -8,4 +8,6 @@ if (hasInterface) then {
      sleep 5;
   	["<img size= '6' shadow='false' image='pic\schlaefer.paa'/>",0,0,15,2] spawn BIS_fnc_dynamicText;
 
+  	0 = [player] execVM "helpers\ensureDeath.sqf";
+
 };
