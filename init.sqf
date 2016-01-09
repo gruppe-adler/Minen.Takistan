@@ -5,7 +5,7 @@ while {!TRAITOR_FOUND} do {{
         Traitor = ["SCH1", "SCH0", "GL0", "GL1", "MG0", "MG1", "Medic0", "Medic1", "ING0", "ING1", "ING2", "ING3", "ING4", "ING5"] call BIS_fnc_selectRandom;
         if (str _x == Traitor) exitWith {
             TRAITOR_FOUND = true;
-            [[[Traitor],"briefing_traitor.sqf"],"BIS_fnc_execVM",true] call BIS_fnc_MP;
+            [[[Traitor],"helpers\briefing_traitor.sqf"],"BIS_fnc_execVM",true] call BIS_fnc_MP;
         };
     } forEach allPlayers;
 };
@@ -30,4 +30,3 @@ asr_ai3_main_setskills = 0;
 
 
 if (true) exitWith {};    
-	

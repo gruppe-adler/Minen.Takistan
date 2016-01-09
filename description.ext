@@ -1,3 +1,6 @@
+enableDebugConsole = 1;
+author = "Panda für Gruppe Adler"; 
+
 respawn = 3;
 respawnDelay = 999999;
 respawnTemplates[] = {"ace_spectator"};
