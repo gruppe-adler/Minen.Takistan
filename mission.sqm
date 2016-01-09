@@ -1,0 +1,3101 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"3DEN",
+		"a3_modules_f_curator_curator",
+		"aia_takistan_config",
+		"rhsusf_c_troops",
+		"BWA3_Factionennek",
+		"rhsusf_c_hmmwv",
+		"rhsusf_vehicles",
+		"COREVLiteVehiclesEXTAF_LandRover",
+		"rhsusf_c_fmtv",
+		"A3_Characters_F_INDEP",
+		"ace_vehiclelock",
+		"ace_explosives",
+		"ace_spectator",
+		"ace_nametags",
+		"ace_hearing",
+		"ace_captives",
+		"ace_medical",
+		"A3_Modules_F_Sites",
+		"task_force_radio_items",
+		"COREVLiteLoadoutsTKA",
+		"A3_Modules_F_Curator_Mines",
+		"a3_weapons_f_explosives",
+		"rhsusf_c_m109",
+		"A3_Soft_F_Gamma_HEMTT",
+		"CAStructures_E_Misc_Misc_Market",
+		"aia_misc3_config",
+		"ace_weather"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"rhsusf_c_troops",
+		"A3_Characters_F_INDEP",
+		"A3_Modules_F_Curator_Curator",
+		"ace_vehiclelock",
+		"3DEN",
+		"ace_spectator",
+		"ace_nametags",
+		"ace_hearing",
+		"ace_captives",
+		"ace_medical",
+		"A3_Modules_F_Sites",
+		"COREVLiteLoadoutsTKA",
+		"rhsusf_c_m109",
+		"A3_Soft_F_Gamma_HEMTT",
+		"task_force_radio_items",
+		"ace_weather",
+		"ace_explosives",
+		"BWA3_Factionennek",
+		"rhsusf_c_hmmwv",
+		"rhsusf_vehicles",
+		"COREVLiteVehiclesEXTAF_LandRover",
+		"rhsusf_c_fmtv",
+		"A3_Modules_F_Curator_Mines",
+		"a3_weapons_f_explosives",
+		"CAStructures_E_Misc_Misc_Market",
+		"aia_misc3_config",
+		"aia_takistan_config"
+	};
+	randomSeed=6305974;
+	class Intel
+	{
+		startWeather=0.39999998;
+		startWind=0.0099999998;
+		startWaves=0.099999994;
+		forecastWeather=0.39999998;
+		forecastWind=0.0099999998;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		windForced=1;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=58;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1344.5453,258.02695,5889.7998};
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					text="Zeus";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;  comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle_M203"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS"";  ";
+					description="Zeus";
+					syncId=0;
+					synchronizations[]={28,29,55};
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8040.9399,296.04001,1965.7981};
+					id=1;
+					side="WEST";
+					vehicle="rhsusf_army_ocp_teamleader";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					text="TeamleadUSA";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;  comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle_M203"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS"";";
+					description="USA Teamlead";
+					syncId=1;
+					synchronizations[]={22,30,55};
+				};
+				class Item1
+				{
+					position[]={8038.4849,296.04001,1961.0804};
+					id=2;
+					side="WEST";
+					vehicle="rhsusf_army_ocp_rifleman";
+					player="PLAY CDG";
+					skill=0.5;
+					text="Marksmen_SchuetzeUSA";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""20Rnd_762x51_Mag"";};  this addBackpack ""rhsusf_assault_eagleaiii_ucp"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 11 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""srifle_DMR_06_camo_F"";  this addPrimaryWeaponItem ""FHQ_optic_ACOG_tan"";  this addPrimaryWeaponItem ""bipod_01_F_snd"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS"";";
+					description="USA Marksmen";
+					syncId=2;
+					synchronizations[]={22,30,55};
+				};
+				class Item2
+				{
+					position[]={8041.4302,296.04001,1961.0797};
+					id=3;
+					side="WEST";
+					vehicle="B_soldier_exp_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="AusbilderUSA";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""B_Carryall_cbr"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS"";      ";
+					description="USA Ausbilder";
+					syncId=3;
+					synchronizations[]={22,30,55};
+				};
+				class Item3
+				{
+					position[]={8044.1567,296.07254,1961.0293};
+					id=4;
+					side="WEST";
+					vehicle="rhsusf_army_ocp_medic";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="Medic_FahrerUSA";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Medic"";  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""rhsusf_assault_eagleaiii_ucp"";  for ""_i"" from 1 to 42 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 24 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_Common_TAN_M_Helmet"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS"";  ";
+					description="USA Medic";
+					syncId=4;
+					synchronizations[]={22,30,55};
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={8188.4043,296.04001,2020.7378};
+					azimut=-1.32806;
+					special="NONE";
+					id=5;
+					side="GUER";
+					vehicle="I_officer_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.44999999;
+					text="OF";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKOfficerUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""tf_rt1523g_sage"";  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""ARC_Common_TAN_Helmet"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Rangefinder"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";  this linkItem ""ItemGPS"";";
+					description="Offizier";
+					syncId=5;
+					synchronizations[]={22,23,54};
+				};
+				class Item1
+				{
+					position[]={8185.1846,296.04001,2018.1167};
+					azimut=-1.32806;
+					special="NONE";
+					id=6;
+					side="GUER";
+					vehicle="I_Soldier_GL_F";
+					player="PLAY CDG";
+					skill=0.44999999;
+					text="GL0";
+					init="if (!local this) exitWith {}; removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""1Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""1Rnd_Smoke_Grenade_shell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeRed_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeGreen_Grenade_shell"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS_GL"";  this addPrimaryWeaponItem ""optic_ACO_grn"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";  ";
+					description="Grenadier";
+					syncId=6;
+					synchronizations[]={6,22,23,54};
+				};
+				class Item2
+				{
+					position[]={8191.5859,296.04001,2018.228};
+					azimut=-1.32806;
+					special="NONE";
+					id=7;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=0.44999999;
+					text="SCH0";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 12 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_84mm_MAAWS_HEAT"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""Launch84mm_M3"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";";
+					description="AT-Schütze";
+					syncId=7;
+					synchronizations[]={22,23,54};
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=11;
+				class Item0
+				{
+					position[]={8175.6738,296.04001,2011.3628};
+					azimut=-1.32806;
+					id=8;
+					side="GUER";
+					vehicle="I_Soldier_SL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.40000001;
+					text="TLG";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""1Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""1Rnd_Smoke_Grenade_shell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeRed_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeGreen_Grenade_shell"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS_GL"";  this addPrimaryWeaponItem ""optic_ACO_grn"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    comment ""Set identity"";";
+					description="Teamlead";
+					syncId=8;
+					synchronizations[]={22,23,54};
+				};
+				class Item1
+				{
+					position[]={8170.2627,296.04001,2007.6167};
+					azimut=-1.32806;
+					id=9;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="ING0";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    ";
+					description="Pionier";
+					syncId=9;
+					synchronizations[]={22,23,54};
+				};
+				class Item2
+				{
+					position[]={8173.0664,296.04001,2007.5718};
+					azimut=-1.32806;
+					id=10;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="ING2";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    ";
+					description="Pionier";
+					syncId=10;
+					synchronizations[]={22,23,54};
+				};
+				class Item3
+				{
+					position[]={8175.5771,296.04001,2007.5718};
+					azimut=-1.32806;
+					id=11;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="ING3";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    ";
+					description="Pionier";
+					syncId=11;
+					synchronizations[]={22,23,54};
+				};
+				class Item4
+				{
+					position[]={8177.8037,296.04001,2007.7339};
+					azimut=-1.32806;
+					id=12;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="Medic0";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 6 do {this addItemToUniform ""ACE_atropine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 64 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 32 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 16 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 8 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""SmokeShell"";};  this addHeadgear ""ARC_Common_TAN_M_Helmet"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";";
+					description="Medic";
+					syncId=12;
+					synchronizations[]={22,23,54};
+				};
+				class Item5
+				{
+					position[]={8180.5332,296.04001,2007.5386};
+					azimut=-1.32806;
+					id=13;
+					side="GUER";
+					vehicle="I_Soldier_AR_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="MG0";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 2 do {this addItemToVest ""200Rnd_556x45_Box"";};  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 7 do {this addItemToBackpack ""200Rnd_556x45_Box"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""rhs_M249_base"";  this addPrimaryWeaponItem ""bipod_01_F_snd"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";";
+					description="MG-Schütze";
+					syncId=13;
+					synchronizations[]={22,23,54};
+				};
+				class Item6
+				{
+					position[]={8170.1895,296.04001,2005.1323};
+					azimut=-1.32806;
+					id=14;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="ING1";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    ";
+					description="Pionier";
+					syncId=14;
+					synchronizations[]={22,23,54};
+				};
+				class Item7
+				{
+					position[]={8173.2549,296.04001,2005.1616};
+					azimut=-1.32806;
+					id=15;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="ING4";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    ";
+					description="Pionier";
+					syncId=15;
+					synchronizations[]={22,23,54};
+				};
+				class Item8
+				{
+					position[]={8175.8008,296.04001,2004.8325};
+					azimut=-1.32806;
+					id=16;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="ING5";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    ";
+					description="Pionier";
+					syncId=16;
+					synchronizations[]={22,23,54};
+				};
+				class Item9
+				{
+					position[]={8178.0586,296.04001,2004.8354};
+					azimut=-1.32806;
+					id=17;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="Medic1";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 6 do {this addItemToUniform ""ACE_atropine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 64 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 32 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 16 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 8 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""SmokeShell"";};  this addHeadgear ""ARC_Common_TAN_M_Helmet"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";";
+					description="Medic";
+					syncId=17;
+					synchronizations[]={22,23,54};
+				};
+				class Item10
+				{
+					position[]={8180.5391,296.04001,2004.8979};
+					azimut=-1.32806;
+					id=18;
+					side="GUER";
+					vehicle="I_Soldier_AR_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="MG1";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 2 do {this addItemToVest ""200Rnd_556x45_Box"";};  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 7 do {this addItemToBackpack ""200Rnd_556x45_Box"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""rhs_M249_base"";  this addPrimaryWeaponItem ""bipod_01_F_snd"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";";
+					description="MG-Schütze";
+					syncId=18;
+					synchronizations[]={22,23,54};
+				};
+			};
+		};
+		class Item4
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={8197.5068,296.04001,2011.1011};
+					azimut=-1.32806;
+					id=19;
+					side="GUER";
+					vehicle="I_Soldier_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.40000001;
+					text="TLK";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""1Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""1Rnd_Smoke_Grenade_shell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeRed_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeGreen_Grenade_shell"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS_GL"";  this addPrimaryWeaponItem ""optic_ACO_grn"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    comment ""Set identity"";";
+					description="Teamlead";
+					syncId=19;
+					synchronizations[]={22,23,54};
+				};
+				class Item1
+				{
+					position[]={8196.2021,296.04001,2008.5269};
+					azimut=-1.32806;
+					special="NONE";
+					id=20;
+					side="GUER";
+					vehicle="I_Soldier_GL_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="GL1";
+					init="if (!local this) exitWith {}; removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""1Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""1Rnd_Smoke_Grenade_shell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeRed_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeGreen_Grenade_shell"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS_GL"";  this addPrimaryWeaponItem ""optic_ACO_grn"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";  ";
+					description="Grenadier";
+					syncId=20;
+					synchronizations[]={22,23,54};
+				};
+				class Item2
+				{
+					position[]={8201.0762,296.04001,2009.2183};
+					azimut=-1.32806;
+					special="NONE";
+					id=21;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					skill=0.44999999;
+					text="SCH1";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 12 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_84mm_MAAWS_HEAT"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1"";  this addWeapon ""Launch84mm_M3"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";";
+					description="AT-Schütze";
+					syncId=21;
+					synchronizations[]={22,23,54};
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8102.1997,296.04001,2031.7771};
+					class args
+					{
+						items=2;
+						class Item0
+						{
+							value="";
+							parentCls="ModuleCuratorAddEditableObjects";
+							typeName="Curator";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="ModuleCuratorAddEditableObjects";
+							typeName="AddCrew";
+						};
+					};
+					id=22;
+					side="LOGIC";
+					vehicle="ModuleCuratorAddEditableObjects";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=22;
+					synchronizations[]={28,24,25,26,27,56,57,1,2,3,4,8,22,9,14,10,15,11,16,12,17,13,18,6,59,58,5,7,20,19,21,33,52,51,53};
+				};
+				class Item1
+				{
+					position[]={8192.3633,296.13214,2049.52};
+					id=23;
+					side="LOGIC";
+					vehicle="ACE_VehicleLock_ModuleSyncedAssign";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=23;
+					synchronizations[]={59,58,5,6,7,19,21,20,8,13,12,11,10,9,14,15,16,17,18};
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={8021.9131,296.04001,1967.6301};
+					id=24;
+					side="WEST";
+					vehicle="B_recon_TL_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					text="TeamleadGER";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_HKG36"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS"";";
+					description="GER Teamlead";
+					syncId=24;
+					synchronizations[]={22,29,55};
+				};
+				class Item1
+				{
+					position[]={8016.606,296.04001,1962.2212};
+					id=25;
+					side="WEST";
+					vehicle="B_recon_medic_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="Medic_FahrerGER";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 14 do {this addItemToVest ""ACE_fieldDressing"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""ACE_morphine"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Backpack_Tropentarn_Med"";  for ""_i"" from 1 to 84 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 46 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 24 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""ACE_bloodIV"";};  this addHeadgear ""ARC_Common_TAN_M_Helmet"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS"";";
+					description="GER Medic";
+					syncId=25;
+					synchronizations[]={22,29,55};
+				};
+				class Item2
+				{
+					position[]={8021.7529,296.04001,1962.0061};
+					id=26;
+					side="WEST";
+					vehicle="B_recon_M_F";
+					player="PLAY CDG";
+					skill=0.44999999;
+					text="SchuetzeGER";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Kitbag_compact_Tropentarn"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  this addItemToBackpack ""SmokeShellRed"";  this addItemToBackpack ""SmokeShellGreen"";  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 4 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS"";";
+					description="GER Schütze";
+					syncId=26;
+					synchronizations[]={22,29,55};
+				};
+				class Item3
+				{
+					position[]={8027.5244,296.04001,1961.9248};
+					id=27;
+					side="WEST";
+					vehicle="B_recon_F";
+					player="PLAY CDG";
+					skill=0.40000001;
+					text="UAVGER";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Kitbag_compact_Tropentarn"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_UAVBattery"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  this addItemToBackpack ""SmokeShellRed"";  this addItemToBackpack ""SmokeShellGreen"";  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";  this linkItem ""B_UavTerminal"";";
+					description="GER UAV-Operator";
+					syncId=27;
+					synchronizations[]={22,29,55};
+				};
+			};
+		};
+		class Item7
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1407.4514,251.3053,5876.9551};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="Zeus";
+							parentCls="ModuleCurator_F";
+							typeName="Owner";
+						};
+						class Item1
+						{
+							value="";
+							parentCls="ModuleCurator_F";
+							typeName="Name";
+						};
+						class Item2
+						{
+							value="3";
+							parentCls="ModuleCurator_F";
+							typeName="Addons";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="ModuleCurator_F";
+							typeName="Forced";
+						};
+					};
+					id=28;
+					side="LOGIC";
+					vehicle="ModuleCurator_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=28;
+					synchronizations[]={22,28,33,34,0};
+				};
+				class Item1
+				{
+					position[]={8019.8203,296.04001,1952.7695};
+					id=29;
+					side="LOGIC";
+					vehicle="ACE_VehicleLock_ModuleSyncedAssign";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=29;
+					synchronizations[]={56,24,26,27,25,0};
+				};
+				class Item2
+				{
+					position[]={8043.2446,296.44131,1951.2336};
+					id=30;
+					side="LOGIC";
+					vehicle="ACE_VehicleLock_ModuleSyncedAssign";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=30;
+					synchronizations[]={2,3,4,1,57};
+				};
+				class Item3
+				{
+					position[]={8003.1216,295.7496,2036.3708};
+					id=31;
+					side="LOGIC";
+					vehicle="HeadlessClient_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="HC";
+				};
+			};
+		};
+		class Item8
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8227.0947,306.60797,1662.9982};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="3";
+							parentCls="ace_spectator_moduleSettings";
+							typeName="unitsFilter";
+						};
+						class Item1
+						{
+							value="3";
+							parentCls="ace_spectator_moduleSettings";
+							typeName="sidesFilter";
+						};
+						class Item2
+						{
+							value="0";
+							parentCls="ace_spectator_moduleSettings";
+							typeName="cameraModes";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="ace_spectator_moduleSettings";
+							typeName="visionModes";
+						};
+					};
+					id=32;
+					side="LOGIC";
+					vehicle="ace_spectator_moduleSettings";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item9
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8295.3926,311.3653,1661.2235};
+					class args
+					{
+						items=5;
+						class Item0
+						{
+							value="1";
+							parentCls="ACE_ModuleNameTags";
+							typeName="showPlayerNames";
+						};
+						class Item1
+						{
+							value="5";
+							parentCls="ACE_ModuleNameTags";
+							typeName="playerNamesViewDistance";
+						};
+						class Item2
+						{
+							value="-1";
+							parentCls="ACE_ModuleNameTags";
+							typeName="showNamesForAI";
+						};
+						class Item3
+						{
+							value="-1";
+							parentCls="ACE_ModuleNameTags";
+							typeName="showVehicleCrewInfo";
+						};
+						class Item4
+						{
+							value="0";
+							parentCls="ACE_ModuleNameTags";
+							typeName="showCursorTagForVehicles";
+						};
+					};
+					id=33;
+					side="LOGIC";
+					vehicle="ACE_ModuleNameTags";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={8363.6885,318.85416,1651.4672};
+					class args
+					{
+						items=3;
+						class Item0
+						{
+							value="1";
+							parentCls="ACE_ModuleHearing";
+							typeName="EnableCombatDeafness";
+						};
+						class Item1
+						{
+							value="-1";
+							parentCls="ACE_ModuleHearing";
+							typeName="DisableEarRinging";
+						};
+						class Item2
+						{
+							value="0";
+							parentCls="ACE_ModuleHearing";
+							typeName="enabledForZeusUnits";
+						};
+					};
+					id=34;
+					side="LOGIC";
+					vehicle="ACE_ModuleHearing";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item10
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8412.4717,340.05154,1647.0321};
+					class args
+					{
+						items=3;
+						class Item0
+						{
+							value="1";
+							parentCls="ace_captives_moduleSettings";
+							typeName="allowHandcuffOwnSide";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="ace_captives_moduleSettings";
+							typeName="allowSurrender";
+						};
+						class Item2
+						{
+							value="0";
+							parentCls="ace_captives_moduleSettings";
+							typeName="requireSurrender";
+						};
+					};
+					id=35;
+					side="LOGIC";
+					vehicle="ace_captives_moduleSettings";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={8468.1445,358.1579,1642.4545};
+					class args
+					{
+						items=13;
+						class Item0
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="level";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="medicSetting";
+						};
+						class Item2
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="allowLitterCreation";
+						};
+						class Item3
+						{
+							value="1800";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="litterCleanUpDelay";
+						};
+						class Item4
+						{
+							value="0";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="enableScreams";
+						};
+						class Item5
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="playerDamageThreshold";
+						};
+						class Item6
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="AIDamageThreshold";
+						};
+						class Item7
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="enableUnconsciousnessAI";
+						};
+						class Item8
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="remoteControlledAI";
+						};
+						class Item9
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="preventInstaDeath";
+						};
+						class Item10
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="bleedingCoefficient";
+						};
+						class Item11
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="painCoefficient";
+						};
+						class Item12
+						{
+							value="1";
+							parentCls="ACE_moduleMedicalSettings";
+							typeName="keepLocalSettingsSynced";
+						};
+					};
+					id=36;
+					side="LOGIC";
+					vehicle="ACE_moduleMedicalSettings";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item11
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={6639.3608,387.26526,5411.0796};
+					azimut=25;
+					class args
+					{
+						items=8;
+						class Item0
+						{
+							value="OPFOR";
+							parentCls="Site_Minefield";
+							typeName="side";
+						};
+						class Item1
+						{
+							value="rectangle";
+							parentCls="Site_Minefield";
+							typeName="shape";
+						};
+						class Item2
+						{
+							value="500";
+							parentCls="Site_Minefield";
+							typeName="axisA";
+						};
+						class Item3
+						{
+							value="900";
+							parentCls="Site_Minefield";
+							typeName="axisB";
+						};
+						class Item4
+						{
+							value="APERSBoundingMine";
+							parentCls="Site_Minefield";
+							typeName="minesType";
+						};
+						class Item5
+						{
+							value="700";
+							parentCls="Site_Minefield";
+							typeName="minesCount";
+						};
+						class Item6
+						{
+							value="Friendlies";
+							parentCls="Site_Minefield";
+							typeName="marked";
+						};
+						class Item7
+						{
+							value="TRUE";
+							parentCls="Site_Minefield";
+							typeName="conditionOfPresence";
+						};
+					};
+					id=37;
+					side="LOGIC";
+					vehicle="Site_Minefield";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={6657.23,384.97498,5471.4438};
+					azimut=25;
+					class args
+					{
+						items=8;
+						class Item0
+						{
+							value="OPFOR";
+							parentCls="Site_Minefield";
+							typeName="side";
+						};
+						class Item1
+						{
+							value="rectangle";
+							parentCls="Site_Minefield";
+							typeName="shape";
+						};
+						class Item2
+						{
+							value="500";
+							parentCls="Site_Minefield";
+							typeName="axisA";
+						};
+						class Item3
+						{
+							value="900";
+							parentCls="Site_Minefield";
+							typeName="axisB";
+						};
+						class Item4
+						{
+							value="SLAMDirectionalMine";
+							parentCls="Site_Minefield";
+							typeName="minesType";
+						};
+						class Item5
+						{
+							value="350";
+							parentCls="Site_Minefield";
+							typeName="minesCount";
+						};
+						class Item6
+						{
+							value="Friendlies";
+							parentCls="Site_Minefield";
+							typeName="marked";
+						};
+						class Item7
+						{
+							value="TRUE";
+							parentCls="Site_Minefield";
+							typeName="conditionOfPresence";
+						};
+					};
+					id=38;
+					side="LOGIC";
+					vehicle="Site_Minefield";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item12
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5659.9746,178.81992,7859.8618};
+					azimut=5;
+					class args
+					{
+						items=8;
+						class Item0
+						{
+							value="Empty";
+							parentCls="Site_Minefield";
+							typeName="side";
+						};
+						class Item1
+						{
+							value="rectangle";
+							parentCls="Site_Minefield";
+							typeName="shape";
+						};
+						class Item2
+						{
+							value="1000";
+							parentCls="Site_Minefield";
+							typeName="axisA";
+						};
+						class Item3
+						{
+							value="1800";
+							parentCls="Site_Minefield";
+							typeName="axisB";
+						};
+						class Item4
+						{
+							value="APERSMine";
+							parentCls="Site_Minefield";
+							typeName="minesType";
+						};
+						class Item5
+						{
+							value="50";
+							parentCls="Site_Minefield";
+							typeName="minesCount";
+						};
+						class Item6
+						{
+							value="Friendlies";
+							parentCls="Site_Minefield";
+							typeName="marked";
+						};
+						class Item7
+						{
+							value="TRUE";
+							parentCls="Site_Minefield";
+							typeName="conditionOfPresence";
+						};
+					};
+					id=39;
+					side="LOGIC";
+					vehicle="Site_Minefield";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5342.5649,143.30759,6218.4458};
+					id=40;
+					side="EAST";
+					vehicle="COREV_O_TME_GL";
+					leader=1;
+					skill=0.40000001;
+					syncId=31;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5518.562,78.085716,9012.1875};
+					azimut=-165.31155;
+					id=41;
+					side="EAST";
+					vehicle="COREV_O_TME_AT";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+					syncId=32;
+					synchronizations[]={34};
+				};
+			};
+		};
+		class Item15
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5458.4888,243.97313,5866.9302};
+					class args
+					{
+						items=2;
+						class Item0
+						{
+							value="";
+							parentCls="ModuleCuratorAddEditableObjects";
+							typeName="Curator";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="ModuleCuratorAddEditableObjects";
+							typeName="AddCrew";
+						};
+					};
+					id=42;
+					side="LOGIC";
+					vehicle="ModuleCuratorAddEditableObjects";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=33;
+					synchronizations[]={22,37,38,36,35,46,41,39,45,40,31,43,42,44,47,34,33,28};
+				};
+			};
+		};
+		class Item16
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5457.6792,135.86003,8601.25};
+					class args
+					{
+						items=2;
+						class Item0
+						{
+							value="";
+							parentCls="ModuleCuratorAddEditableObjects";
+							typeName="Curator";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="ModuleCuratorAddEditableObjects";
+							typeName="AddCrew";
+						};
+					};
+					id=43;
+					side="LOGIC";
+					vehicle="ModuleCuratorAddEditableObjects";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=34;
+					synchronizations[]={32,48,49,50,33,28};
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5356.2207,148.78937,6129.5933};
+					azimut=-86.213211;
+					id=44;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+					syncId=35;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5142.4175,145.3931,6070.6919};
+					azimut=-1.32806;
+					special="NONE";
+					id=45;
+					side="EAST";
+					vehicle="COREV_O_TME_Officer";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.40000001;
+					text="Warlord";
+					syncId=36;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item19
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5216.252,145.46002,6062.5723};
+					id=46;
+					side="EAST";
+					vehicle="COREV_O_TME_SL";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					syncId=37;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5172.2983,145.39999,6102.041};
+					azimut=-71.570557;
+					id=47;
+					side="EAST";
+					vehicle="COREV_O_TME_TL";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					syncId=38;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5294.0132,145.23524,6118.8789};
+					azimut=-16.40556;
+					id=48;
+					side="EAST";
+					vehicle="COREV_O_TME_Medic";
+					leader=1;
+					skill=0.40000001;
+					syncId=39;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5298.521,145.79727,6158.6729};
+					azimut=64.305115;
+					id=49;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+					syncId=40;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5205.2749,145.40393,6094.0015};
+					azimut=115.25636;
+					id=50;
+					side="EAST";
+					vehicle="COREV_O_TME_AR";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+					syncId=41;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item24
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5427.0024,153.48883,6215.5347};
+					offsetY=10;
+					id=51;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+					syncId=42;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5422.6128,161.11011,6194.6504};
+					azimut=33.422348;
+					special="NONE";
+					id=52;
+					side="EAST";
+					vehicle="COREV_O_TME_AA";
+					leader=1;
+					skill=0.40000001;
+					syncId=43;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item26
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5372.8149,140.58517,6303.9795};
+					azimut=147.29912;
+					id=53;
+					side="EAST";
+					vehicle="COREV_O_TME_LAT";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+					syncId=44;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item27
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5272.8989,145.25977,6163.9937};
+					azimut=152.86438;
+					id=54;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+					syncId=45;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5389.9053,159.09389,6168.7017};
+					id=55;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+					syncId=46;
+					synchronizations[]={33};
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5334.3447,142.09796,6274.957};
+					azimut=-138.33063;
+					id=56;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+					syncId=47;
+					synchronizations[]={33};
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={5330.1489,142.57997,6264.1577};
+					completitionRadius=10;
+					type="GUARD";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={5343.5225,143.00264,6229.4004};
+					completitionRadius=10;
+					type="GUARD";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={5431.7773,139.8459,6286.6968};
+					completitionRadius=10;
+					type="GUARD";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={5337.6616,142.05965,6265.0659};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5585.9258,81.903168,8895.7285};
+					id=57;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+					syncId=48;
+					synchronizations[]={34};
+				};
+			};
+		};
+		class Item31
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5645.4395,81.910004,8871.8086};
+					azimut=-10.908347;
+					id=58;
+					side="EAST";
+					vehicle="COREV_O_TME_TL";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					syncId=49;
+					synchronizations[]={34};
+				};
+			};
+		};
+		class Item32
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5662.4668,81.939949,8915.4492};
+					azimut=-62.134651;
+					id=59;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+					syncId=50;
+					synchronizations[]={34};
+				};
+			};
+		};
+		class Item33
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={7940.0723,296.04001,1732.2808};
+					id=60;
+					side="WEST";
+					vehicle="rhsusf_m109d_usarmy";
+					leader=1;
+					skill=0.60000002;
+					syncId=51;
+					synchronizations[]={52,22};
+				};
+				class Item1
+				{
+					position[]={7958.5854,296.04001,1737.8837};
+					id=61;
+					side="WEST";
+					vehicle="rhsusf_m109d_usarmy";
+					skill=0.60000002;
+					syncId=52;
+					synchronizations[]={51,22};
+				};
+				class Item2
+				{
+					position[]={7951.3159,296.04001,1723.8044};
+					id=62;
+					side="WEST";
+					vehicle="B_Truck_01_box_F";
+					skill=0.60000002;
+					description="Zeus";
+					syncId=53;
+					synchronizations[]={22};
+				};
+			};
+		};
+		class Item34
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3780.7253,229.30348,4592.8364};
+					azimut=217.6924;
+					id=63;
+					side="EAST";
+					vehicle="COREV_O_TME_AT";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+				};
+			};
+		};
+		class Item35
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3776.4763,225.30162,4486.1006};
+					azimut=-100.30312;
+					id=64;
+					side="EAST";
+					vehicle="COREV_O_TME_Soldier";
+					leader=1;
+					skill=0.40000001;
+				};
+			};
+		};
+		class Item36
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3743.3428,229.46881,4416.5542};
+					azimut=-55.997364;
+					id=65;
+					side="EAST";
+					vehicle="COREV_O_TME_TL";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+				};
+			};
+		};
+		class Item37
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3663.25,225.23547,4530.6738};
+					azimut=-44.66177;
+					id=66;
+					side="EAST";
+					vehicle="COREV_O_TME_AT";
+					leader=1;
+					skill=0.40000001;
+				};
+			};
+		};
+		class Item38
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5274.4063,144.31064,6144.2451};
+					azimut=85.900009;
+					id=67;
+					side="CIV";
+					vehicle="COREV_C_TKC_E_A";
+					leader=1;
+					skill=0.40000001;
+				};
+			};
+		};
+		class Item39
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5386.48,154.86539,6180.9619};
+					id=68;
+					side="CIV";
+					vehicle="COREV_C_TKC_D_A";
+					leader=1;
+					skill=0.40000001;
+				};
+			};
+		};
+		class Item40
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5192.2192,145.40964,6090.2368};
+					azimut=-174.76509;
+					id=69;
+					side="CIV";
+					vehicle="COREV_C_TKC_B_A";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+				};
+			};
+		};
+		class Item41
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5350.9941,142.45731,6236.0977};
+					azimut=-27.607437;
+					id=70;
+					side="CIV";
+					vehicle="COREV_C_TKC_A_A";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+				};
+			};
+		};
+		class Item42
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5204.0156,145.39999,6056.5884};
+					id=71;
+					side="CIV";
+					vehicle="COREV_C_TKC_C_A";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+				};
+			};
+		};
+		class Item43
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5939.4648,122.63,7315.9434};
+					id=72;
+					side="CIV";
+					vehicle="COREV_C_TKC_E_A";
+					leader=1;
+					skill=0.40000001;
+				};
+			};
+		};
+		class Item44
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6001.4951,122.36531,7314.8926};
+					azimut=-64.75975;
+					id=73;
+					side="CIV";
+					vehicle="COREV_C_TKC_D_A";
+					leader=1;
+					skill=0.40000001;
+				};
+			};
+		};
+		class Item45
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5914.3267,123.49762,7253.6958};
+					id=74;
+					side="CIV";
+					vehicle="COREV_C_TKC_B_A";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+				};
+			};
+		};
+		class Item46
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5987.501,121.61169,7346.7476};
+					id=75;
+					side="CIV";
+					vehicle="COREV_C_TKC_A_A";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+				};
+			};
+		};
+		class Item47
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5912.3149,122.83463,7321.0972};
+					azimut=28.070545;
+					id=76;
+					side="CIV";
+					vehicle="COREV_C_TKC_C_A";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+				};
+			};
+		};
+		class Item48
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5644.5806,81.919998,8910.292};
+					azimut=1.6625834;
+					id=77;
+					side="CIV";
+					vehicle="COREV_C_TKC_E_A";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item49
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3680.2415,223.15536,4537.7686};
+					id=78;
+					side="CIV";
+					vehicle="COREV_C_TKC_E_A";
+					leader=1;
+					skill=0.40000001;
+				};
+			};
+		};
+		class Item50
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3761.1519,225.06502,4504.3745};
+					azimut=-93.406136;
+					id=79;
+					side="CIV";
+					vehicle="COREV_C_TKC_D_A";
+					leader=1;
+					skill=0.40000001;
+				};
+			};
+		};
+		class Item51
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3710.7363,230.57442,4463.1572};
+					azimut=52.477173;
+					id=80;
+					side="CIV";
+					vehicle="COREV_C_TKC_B_A";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+				};
+			};
+		};
+		class Item52
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3704.1331,221.39832,4596.9229};
+					azimut=-118.49033;
+					id=81;
+					side="CIV";
+					vehicle="COREV_C_TKC_A_A";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+				};
+			};
+		};
+		class Item53
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3750.9614,228.75188,4431.3662};
+					azimut=-14.091073;
+					id=82;
+					side="CIV";
+					vehicle="COREV_C_TKC_C_A";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.44999999;
+				};
+			};
+		};
+		class Item54
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={8138.5444,296.04001,1874.1105};
+					class args
+					{
+						items=7;
+						class Item0
+						{
+							value="0";
+							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
+							typeName="TeamLeaderRadio";
+						};
+						class Item1
+						{
+							value="0";
+							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
+							typeName="RiflemanRadio";
+						};
+						class Item2
+						{
+							value="4";
+							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
+							typeName="terrain_interception_coefficient";
+						};
+						class Item3
+						{
+							value="TFAR";
+							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
+							typeName="radio_channel_name";
+						};
+						class Item4
+						{
+							value="helium";
+							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
+							typeName="radio_channel_password";
+						};
+						class Item5
+						{
+							value="1";
+							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
+							typeName="same_sw_frequencies_for_side";
+						};
+						class Item6
+						{
+							value="1";
+							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
+							typeName="same_lr_frequencies_for_side";
+						};
+					};
+					id=83;
+					side="LOGIC";
+					vehicle="tfar_ModuleTaskForceRadioEnforceUsage";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={8189.1416,296.04001,1983.3535};
+					class args
+					{
+						items=3;
+						class Item0
+						{
+							value="0";
+							parentCls="tfar_ModuleTaskForceRadioFrequencies";
+							typeName="Units";
+						};
+						class Item1
+						{
+							value="[""40"",""50""]";
+							parentCls="tfar_ModuleTaskForceRadioFrequencies";
+							typeName="PrFreq";
+						};
+						class Item2
+						{
+							value="[""80"",""70""]";
+							parentCls="tfar_ModuleTaskForceRadioFrequencies";
+							typeName="LrFreq";
+						};
+					};
+					id=84;
+					side="LOGIC";
+					vehicle="tfar_ModuleTaskForceRadioFrequencies";
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=54;
+					synchronizations[]={18,20,19,21,17,13,12,16,11,8,15,10,14,9,7,6,5};
+				};
+			};
+		};
+		class Item55
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7994.7949,296.04001,1881.6881};
+					class args
+					{
+						items=3;
+						class Item0
+						{
+							value="0";
+							parentCls="tfar_ModuleTaskForceRadioFrequencies";
+							typeName="Units";
+						};
+						class Item1
+						{
+							value="[""40"",""50""]";
+							parentCls="tfar_ModuleTaskForceRadioFrequencies";
+							typeName="PrFreq";
+						};
+						class Item2
+						{
+							value="[""100"",""80"",""70""]";
+							parentCls="tfar_ModuleTaskForceRadioFrequencies";
+							typeName="LrFreq";
+						};
+					};
+					id=85;
+					side="LOGIC";
+					vehicle="tfar_ModuleTaskForceRadioFrequencies";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=55;
+					synchronizations[]={2,3,4,1,27,26,24,25,0};
+				};
+			};
+		};
+		class Item56
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8204.7969,295.9939,1727.8724};
+					class args
+					{
+						items=6;
+						class Item0
+						{
+							value="1";
+							parentCls="ace_weather_ModuleSettings";
+							typeName="enableServerController";
+						};
+						class Item1
+						{
+							value="0";
+							parentCls="ace_weather_ModuleSettings";
+							typeName="useACEWeather";
+						};
+						class Item2
+						{
+							value="1";
+							parentCls="ace_weather_ModuleSettings";
+							typeName="syncRain";
+						};
+						class Item3
+						{
+							value="1";
+							parentCls="ace_weather_ModuleSettings";
+							typeName="syncWind";
+						};
+						class Item4
+						{
+							value="1";
+							parentCls="ace_weather_ModuleSettings";
+							typeName="syncMisc";
+						};
+						class Item5
+						{
+							value="60";
+							parentCls="ace_weather_ModuleSettings";
+							typeName="serverUpdateInterval";
+						};
+					};
+					id=86;
+					side="LOGIC";
+					vehicle="ace_weather_ModuleSettings";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item57
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={8137.999,302.33475,1660.392};
+					class args
+					{
+						items=3;
+						class Item0
+						{
+							value="0";
+							parentCls="ACE_ModuleExplosive";
+							typeName="RequireSpecialist";
+						};
+						class Item1
+						{
+							value="1";
+							parentCls="ACE_ModuleExplosive";
+							typeName="PunishNonSpecialists";
+						};
+						class Item2
+						{
+							value="1";
+							parentCls="ACE_ModuleExplosive";
+							typeName="ExplodeOnDefuse";
+						};
+					};
+					id=87;
+					side="LOGIC";
+					vehicle="ACE_ModuleExplosive";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=66;
+		class Item0
+		{
+			position[]={8021.6509,296.04001,1980.4137};
+			id=88;
+			side="EMPTY";
+			vehicle="Fennek_Tropen_mg";
+			skill=0.60000002;
+			text="Fennek";
+			init="clearWeaponCargo this; clearMagazineCargo this; clearItemCargoGlobal this; this  addBackpackCargo [""B_UAV_01_backpack_F"",1];";
+			syncId=56;
+			synchronizations[]={22,29};
+		};
+		class Item1
+		{
+			position[]={8040.9058,296.04001,1981.6436};
+			id=89;
+			side="EMPTY";
+			vehicle="rhsusf_m1025_d_s_m2";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="clearWeaponCargo this; clearMagazineCargo this; clearItemCargoGlobal this;";
+			syncId=57;
+			synchronizations[]={22,30};
+		};
+		class Item2
+		{
+			position[]={8197.665,296.04001,2031.5464};
+			azimut=180;
+			id=90;
+			side="EMPTY";
+			vehicle="COREV_O_TME_LandRover_MG";
+			skill=0.40000001;
+			init="clearWeaponCargo this; clearMagazineCargo this; clearItemCargoGlobal this;";
+			syncId=58;
+			synchronizations[]={22,23};
+		};
+		class Item3
+		{
+			position[]={8187.416,296.04001,2030.7202};
+			azimut=180;
+			id=91;
+			side="EMPTY";
+			vehicle="rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy";
+			skill=0.40000001;
+			init="clearWeaponCargo this; clearMagazineCargo this; clearItemCargoGlobal this;";
+			syncId=59;
+			synchronizations[]={22,23};
+		};
+		class Item4
+		{
+			position[]={5561.5259,84.232216,8844.2168};
+			azimut=-1.32806;
+			special="NONE";
+			id=92;
+			side="EMPTY";
+			vehicle="IEDLandBig_F";
+			skill=0.40000001;
+		};
+		class Item5
+		{
+			position[]={5765.6523,99.319122,8365.9287};
+			azimut=-1.32806;
+			special="NONE";
+			id=93;
+			side="EMPTY";
+			vehicle="IEDLandBig_F";
+			skill=0.40000001;
+		};
+		class Item6
+		{
+			position[]={5636.8042,90.774521,8643.3975};
+			azimut=-1.32806;
+			special="NONE";
+			id=94;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item7
+		{
+			position[]={5537.3208,82.219673,8934.5566};
+			azimut=-1.32806;
+			special="NONE";
+			id=95;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item8
+		{
+			position[]={5660.9429,93.552483,8744.7813};
+			azimut=-1.32806;
+			special="NONE";
+			id=96;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item9
+		{
+			position[]={5837.9639,101.01017,8125.209};
+			azimut=-1.32806;
+			special="NONE";
+			id=97;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item10
+		{
+			position[]={5960.2686,118.59164,7531.3853};
+			azimut=-1.32806;
+			special="NONE";
+			id=98;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item11
+		{
+			position[]={5969.1191,107.1238,7823.4697};
+			azimut=-1.32806;
+			special="NONE";
+			id=99;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item12
+		{
+			position[]={5877.3901,126.5126,7224.8169};
+			azimut=-1.32806;
+			special="NONE";
+			id=100;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item13
+		{
+			position[]={5863.7109,136.83856,6665.5928};
+			azimut=-1.32806;
+			special="NONE";
+			id=101;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item14
+		{
+			position[]={5661.7466,144.04216,6478.917};
+			azimut=-1.32806;
+			special="NONE";
+			id=102;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item15
+		{
+			position[]={5522.5439,143.16466,6355.8066};
+			azimut=-1.32806;
+			special="NONE";
+			id=103;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item16
+		{
+			position[]={5919.5464,138.60683,6779.8911};
+			azimut=-1.32806;
+			special="NONE";
+			id=104;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item17
+		{
+			position[]={5924.0586,128.32645,7118.605};
+			azimut=-1.32806;
+			special="NONE";
+			id=105;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item18
+		{
+			position[]={5972.3364,109.19044,7702.7739};
+			azimut=-1.32806;
+			special="NONE";
+			id=106;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item19
+		{
+			position[]={5887.0444,101.85143,8073.7139};
+			azimut=-1.32806;
+			special="NONE";
+			id=107;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item20
+		{
+			position[]={5733.3579,94.947411,8435.8018};
+			azimut=-1.32806;
+			special="NONE";
+			id=108;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item21
+		{
+			position[]={5665.1094,92.666412,8579.1045};
+			azimut=-1.32806;
+			special="NONE";
+			id=109;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item22
+		{
+			position[]={9028.1309,235.05247,5897.3555};
+			azimut=-1.32806;
+			special="NONE";
+			id=110;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.40000001;
+		};
+		class Item23
+		{
+			position[]={5916.2271,139.00891,6768.3262};
+			azimut=-1.32806;
+			special="NONE";
+			id=111;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item24
+		{
+			position[]={5984.5518,107.99815,7822.8071};
+			azimut=-1.32806;
+			special="NONE";
+			id=112;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item25
+		{
+			position[]={5948.209,106.13885,7823.627};
+			azimut=-1.32806;
+			special="NONE";
+			id=113;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item26
+		{
+			position[]={5977.1738,107.95917,7847.127};
+			azimut=-1.32806;
+			special="NONE";
+			id=114;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item27
+		{
+			position[]={5961.8716,107.30476,7847.127};
+			azimut=-1.32806;
+			special="NONE";
+			id=115;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item28
+		{
+			position[]={5632.3599,90.094246,8671.5508};
+			azimut=-1.32806;
+			special="NONE";
+			id=116;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item29
+		{
+			position[]={5529.3062,143.27222,6358.1011};
+			azimut=-1.32806;
+			special="NONE";
+			id=117;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item30
+		{
+			position[]={5518.7734,143.21756,6365.1953};
+			azimut=-1.32806;
+			special="NONE";
+			id=118;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item31
+		{
+			position[]={5515.1016,142.11203,6333.0415};
+			azimut=-1.32806;
+			special="NONE";
+			id=119;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item32
+		{
+			position[]={5585.0923,146.53615,6402.2036};
+			azimut=-1.32806;
+			special="NONE";
+			id=120;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			skill=0.40000001;
+		};
+		class Item33
+		{
+			position[]={5383.1152,140.30124,6263.835};
+			azimut=-1.32806;
+			special="NONE";
+			id=121;
+			side="EMPTY";
+			vehicle="APERSTripMine";
+			skill=0.40000001;
+		};
+		class Item34
+		{
+			position[]={5332.2949,146.03844,6181.2256};
+			azimut=-1.32806;
+			special="NONE";
+			id=122;
+			side="EMPTY";
+			vehicle="APERSTripMine";
+			skill=0.40000001;
+		};
+		class Item35
+		{
+			position[]={5254.6846,144.96904,6165.1816};
+			azimut=-1.32806;
+			special="NONE";
+			id=123;
+			side="EMPTY";
+			vehicle="Claymore_F";
+			skill=0.40000001;
+		};
+		class Item36
+		{
+			position[]={5216.9424,145.42844,6088.8672};
+			azimut=-1.32806;
+			special="NONE";
+			id=124;
+			side="EMPTY";
+			vehicle="Claymore_F";
+			skill=0.40000001;
+		};
+		class Item37
+		{
+			position[]={5261.9224,146.05356,6197.5596};
+			azimut=-1.32806;
+			special="NONE";
+			id=125;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item38
+		{
+			position[]={5192.2793,144.83308,6133.0757};
+			azimut=-1.32806;
+			special="NONE";
+			id=126;
+			side="EMPTY";
+			vehicle="ATMine";
+			skill=0.40000001;
+		};
+		class Item39
+		{
+			position[]={5291.4971,146.39485,6222.8784};
+			azimut=-1.32806;
+			special="NONE";
+			id=127;
+			side="EMPTY";
+			vehicle="APERSMine";
+			skill=0.40000001;
+		};
+		class Item40
+		{
+			position[]={5184.0645,145.39999,6070.1021};
+			azimut=-1.32806;
+			special="NONE";
+			id=128;
+			side="EMPTY";
+			vehicle="APERSMine";
+			skill=0.40000001;
+		};
+		class Item41
+		{
+			position[]={3683.3027,222.4696,4554.1362};
+			id=129;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item42
+		{
+			position[]={4661.1792,317.58691,698.31238};
+			id=130;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item43
+		{
+			position[]={1353.52,248.71605,5872.6826};
+			id=131;
+			side="EMPTY";
+			vehicle="Fort_Crate_wood";
+			skill=0.60000002;
+			init="this addaction [""Open Virtual Arsenal"", { [""Open"",true] call BIS_fnc_arsenal; }];";
+		};
+		class Item44
+		{
+			position[]={5801.1938,141.65727,6654.1758};
+			id=132;
+			side="EMPTY";
+			vehicle="IEDLandSmall_F";
+			skill=0.60000002;
+		};
+		class Item45
+		{
+			position[]={5821.4854,142.1324,6665.4009};
+			id=133;
+			side="EMPTY";
+			vehicle="Claymore_F";
+			skill=0.60000002;
+		};
+		class Item46
+		{
+			position[]={5867.6812,140.39124,6696.0542};
+			id=134;
+			side="EMPTY";
+			vehicle="IEDLandBig_F";
+			skill=0.60000002;
+		};
+		class Item47
+		{
+			position[]={5353.6997,141.14874,6267.9443};
+			id=135;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item48
+		{
+			position[]={5643.2393,81.932251,8939.416};
+			id=136;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item49
+		{
+			position[]={5644.8687,81.582626,9010.1289};
+			id=137;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item50
+		{
+			position[]={5742.2241,84.538116,8876.2646};
+			id=138;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item51
+		{
+			position[]={5545.0791,81.435532,8975.5674};
+			id=139;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item52
+		{
+			position[]={5475.9565,91.441635,8926.8896};
+			id=140;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item53
+		{
+			position[]={5742.2241,85.797646,8997.96};
+			id=141;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item54
+		{
+			position[]={5536.3169,82.727806,8854.3594};
+			id=142;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item55
+		{
+			position[]={5706.2026,82.936226,8950.7412};
+			id=143;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item56
+		{
+			position[]={5971.2559,105.39792,7988.6309};
+			id=144;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			skill=0.60000002;
+		};
+		class Item57
+		{
+			position[]={3698.2075,223.79074,4527.2588};
+			id=145;
+			side="EMPTY";
+			vehicle="APERSTripMine";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+		class Item58
+		{
+			position[]={5425.3789,139.78134,6279.7749};
+			id=146;
+			side="EMPTY";
+			vehicle="APERSTripMine";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+		class Item59
+		{
+			position[]={5453.5757,139.72279,6316.9746};
+			id=147;
+			side="EMPTY";
+			vehicle="APERSBoundingMine";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+		class Item60
+		{
+			position[]={5414.0063,139.76552,6293.9907};
+			id=148;
+			side="EMPTY";
+			vehicle="SLAMDirectionalMine";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+		class Item61
+		{
+			position[]={5938.0547,122.79721,7381.9551};
+			id=149;
+			side="EMPTY";
+			vehicle="ATMine";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+		class Item62
+		{
+			position[]={5930.4722,121.89685,7353.0488};
+			id=150;
+			side="EMPTY";
+			vehicle="IEDUrbanBig_F";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+		class Item63
+		{
+			position[]={5897.9854,123.56622,7285.8428};
+			id=151;
+			side="EMPTY";
+			vehicle="APERSMine";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+		class Item64
+		{
+			position[]={5896.0371,123.36375,7352.2554};
+			id=152;
+			side="EMPTY";
+			vehicle="APERSMine";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+		class Item65
+		{
+			position[]={5960.1533,122.29,7355.7969};
+			id=153;
+			side="EMPTY";
+			vehicle="APERSMine";
+			leader=1;
+			skill=0.60000002;
+			description="Zeus";
+		};
+	};
+	class Markers
+	{
+		items=14;
+		class Item0
+		{
+			position[]={1094.9467,482.62381,7237.7837};
+			name="US Special Forces";
+			markerType="RECTANGLE";
+			type="Faction_US";
+			colorName="ColorBlue";
+			fillName="FDiagonal";
+			a=20;
+			b=20;
+		};
+		class Item1
+		{
+			position[]={1280.4017,409.69199,6796.5024};
+			name="US Specialforce/Nicht betreten";
+			text="Us";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorBlue";
+			fillName="FDiagonal";
+			a=1000;
+			b=1500;
+		};
+		class Item2
+		{
+			position[]={1173.1382,453.03534,7043.9849};
+			name="Specialforce";
+			type="Faction_US";
+		};
+		class Item3
+		{
+			position[]={11480.65,276.44449,8190.0806};
+			name="Talibanhochburg";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=1000;
+			b=1000;
+		};
+		class Item4
+		{
+			position[]={976.86499,420.81497,11030.187};
+			name="Höhlensystem AlQaida";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=600;
+			b=600;
+		};
+		class Item5
+		{
+			position[]={5525.3809,82.079247,8951.749};
+			name="Räumen";
+			type="mil_marker";
+			colorName="ColorGreen";
+			a=2;
+			b=2;
+		};
+		class Item6
+		{
+			position[]={5273.0967,143.54697,6129.2368};
+			name="Talibanhochburg Abad";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorEAST";
+			fillName="Grid";
+			a=200;
+			b=200;
+		};
+		class Item7
+		{
+			position[]={6675.2153,390.9574,5441.8506};
+			name="Minenfeld";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="BDiagonal";
+			a=1000;
+			b=600;
+			angle=-70;
+		};
+		class Item8
+		{
+			position[]={6821.624,304.39249,5979.9238};
+			name="Minenfeld1";
+			type="Minefield";
+		};
+		class Item9
+		{
+			position[]={6419.3931,332.37073,4921.7476};
+			name="Minenfeld2";
+			type="Minefield";
+		};
+		class Item10
+		{
+			position[]={11438.604,275.41226,8250.2139};
+			name="Feind";
+			type="rhs_flag_insurgents";
+		};
+		class Item11
+		{
+			position[]={5229.3271,144.16066,6156.0586};
+			name="Feind1";
+			type="rhs_flag_insurgents";
+		};
+		class Item12
+		{
+			position[]={869.99323,466.16174,11058.934};
+			name="Feind2";
+			type="rhs_flag_insurgents";
+		};
+		class Item13
+		{
+			position[]={7951.1406,296.04001,1754.4906};
+			name="Arti";
+			type="o_mortar";
+			colorName="ColorBlue";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"aia_takistan_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_takistan_config"
+	};
+	randomSeed=6926937;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.40000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.40000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"aia_takistan_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_takistan_config"
+	};
+	randomSeed=1523579;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.40000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.40000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"aia_takistan_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_takistan_config"
+	};
+	randomSeed=5041509;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.40000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.40000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
