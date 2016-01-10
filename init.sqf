@@ -1,3 +1,5 @@
+  /*
+
   execVM "briefing.sqf";
 if (isServer) then {
 TRAITOR_FOUND = false;
@@ -30,3 +32,5 @@ asr_ai3_main_setskills = 0;
 
 
 if (true) exitWith {};    
+
+	*/
