@@ -12,4 +12,4 @@ ensureDeath = {
 	};
 };
 
-_unit addEventHandler ["HandleDamage", {_this call ensureDeath}];
+// _unit addEventHandler ["HandleDamage", {_this call ensureDeath}];
