@@ -130,7 +130,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="TeamleadUSA";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;  comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle_M203"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_1"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="USA Teamlead";
 					syncId=1;
 					synchronizations[]={22,30,54};
@@ -2561,7 +2561,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=62;
+		items=63;
 		class Item0
 		{
 			position[]={8021.6509,296.04001,1980.4137};
@@ -3158,6 +3158,15 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			description="Zeus";
+		};
+		class Item62
+		{
+			position[]={8040.7456,296.04001,1980.7053};
+			id=150;
+			side="EMPTY";
+			vehicle="Fennek_Tropen_mg";
+			skill=0.60000002;
+			init="clearWeaponCargo this; clearMagazineCargo this; clearItemCargoGlobal this;";
 		};
 	};
 	class Markers
