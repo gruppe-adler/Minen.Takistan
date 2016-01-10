@@ -56,6 +56,7 @@ player createDiaryRecord ["Diary", ["Auftrag", "Räumen Sie alle Minen auf dem H
 case CIVILIAN: // CIVILIAN briefing goes here
 { 
 };
+default {};
 };
 
 

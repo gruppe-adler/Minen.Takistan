@@ -8,8 +8,8 @@ ensureDeath = {
 
 	if (_dmg > 0.8) then {
  		_victim setDamage 1;
- 		_victim removeEventHandler ["HandleDamage",0];
+ 		_victim removeAllEventHandlers "HandleDamage";
 	};
 };
 
-// _unit addEventHandler ["HandleDamage", {_this call ensureDeath}];
+_unit addEventHandler ["HandleDamage", {_this call ensureDeath}];

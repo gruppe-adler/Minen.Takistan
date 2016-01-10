@@ -1,4 +1,4 @@
-/* blufor_uniform = [
+blufor_uniform = [
 	"U_TKLocalUni_A",
 	"U_TKLocalUni_B",
 	"U_TKLocalUni_C",
@@ -174,4 +174,3 @@ blufor_AT = {
 		[this] call blufor_basic;
 	};
 
-*/

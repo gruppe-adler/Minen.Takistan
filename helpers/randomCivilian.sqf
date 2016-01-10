@@ -1,4 +1,4 @@
-/*
+
 _blufor_uniform = [
 	"U_TKLocalUni_A",
 	"U_TKLocalUni_B",
@@ -55,4 +55,3 @@ _blufor_random_helmet = [
 	
 	this addHeadgear (_blufor_random_helmet call BIS_fnc_selectRandom);
 	
-*/

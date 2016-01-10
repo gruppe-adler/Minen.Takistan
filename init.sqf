@@ -1,6 +1,6 @@
-  /*
+  
 
-  execVM "briefing.sqf";
+ execVM "briefing.sqf";
 if (isServer) then {
 TRAITOR_FOUND = false;
 while {!TRAITOR_FOUND} do {{
@@ -10,27 +10,14 @@ while {!TRAITOR_FOUND} do {{
             [[[Traitor],"helpers\briefing_traitor.sqf"],"BIS_fnc_execVM",true] call BIS_fnc_MP;
         };
     } forEach allPlayers;
+    sleep 1;
 };
 };
 
  [true,30,false,false,15,5,true,[]] execVM "headless\WerthlesHeadless.sqf";
 
-asr_ai3_main_setskills = 0;
-	
-	{
-	_x setSkill ["aimingspeed", 0.9];
-	_x setSkill ["spotdistance", 1];
-	_x setSkill ["aimingaccuracy", 0.6];
-	_x setSkill ["aimingshake", 0.6];
-	_x setSkill ["spottime", 1];
-	_x setSkill ["spotdistance", 1];
-	_x setSkill ["commanding", 1];
-	_x setSkill ["general", 1];
-	} forEach allUnits;
-
-	diag_log "skill set for every ai unit";
 
 
 if (true) exitWith {};    
 
-	*/
+	
