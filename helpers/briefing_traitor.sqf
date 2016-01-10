@@ -11,3 +11,4 @@ if (hasInterface) then {
   	0 = [player] execVM "helpers\ensureDeath.sqf";
 
 };
+
