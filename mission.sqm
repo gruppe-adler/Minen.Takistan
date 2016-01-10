@@ -2547,7 +2547,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8076.3687,296.04001,1894.9204};
+					position[]={8055.8604,296.04001,1878.1128};
 					special="NONE";
 					id=87;
 					side="LOGIC";

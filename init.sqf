@@ -11,15 +11,15 @@ while {!TRAITOR_FOUND} do {{
 };
 };
 
-[true,30,false,false,15,5,true,[]] execVM "headless\WerthlesHeadless.sqf";
+ [true,30,false,false,15,5,true,[]] execVM "headless\WerthlesHeadless.sqf";
 
 asr_ai3_main_setskills = 0;
 	
 	{
-	_x setSkill ["aimingspeed", 0.5];
+	_x setSkill ["aimingspeed", 0.9];
 	_x setSkill ["spotdistance", 1];
-	_x setSkill ["aimingaccuracy", 0.4];
-	_x setSkill ["aimingshake", 0.4];
+	_x setSkill ["aimingaccuracy", 0.6];
+	_x setSkill ["aimingshake", 0.6];
 	_x setSkill ["spottime", 1];
 	_x setSkill ["spotdistance", 1];
 	_x setSkill ["commanding", 1];
