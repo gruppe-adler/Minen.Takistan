@@ -7,3 +7,6 @@ respawnTemplates[] = {"ace_spectator"};
 respawnTemplatesWest[] = {"ace_spectator"};
 respawnTemplatesEast[] = {"ace_spectator"};
 respawnTemplatesIndependent[] = {"ace_spectator"};
+
+#include "_defines.hpp"
+#include "_dialogs.hpp"
