@@ -1950,7 +1950,6 @@ class Mission
 				class Item0
 				{
 					position[]={3744.7622,223.22733,4586.2363};
-					type="DESTROY";
 					speed="LIMITED";
 					combat="SAFE";
 					class Effects
