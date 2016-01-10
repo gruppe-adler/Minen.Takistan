@@ -2,7 +2,7 @@ class RscTitles {
 
 	
 
-	class gui_blufor_pleasewait
+	class gui_pleasewait
 	{
 		idd = -1;
 		duration = 10;
