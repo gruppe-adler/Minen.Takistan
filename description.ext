@@ -1,5 +1,5 @@
 enableDebugConsole = 1;
-author = "Panda für Gruppe Adler"; 
+author = "Panda (Idee) und nomisum (der Rest) für Gruppe Adler"; 
 
 respawn = 3;
 respawnDelay = 999999;

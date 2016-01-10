@@ -8,7 +8,7 @@ switch (side player) do
 case WEST: // BLUFOR briefing goes here
 {
 player createDiaryRecord ["Diary", ["militärische Mittel", "Ein Squad Amerikaner, die das Oberkommando innehaben und die Afghane ausbilden. Ein Squad Deutscher, die mittels Fennek und Drohne aufklären können. Ein Zug afghanischer Pioniere die im Minenräumen ausgebildet werden sollen. 
-Außerdem steht innen Artellerie zur verfügung, die Sie über das Hauptquartier (Zeus) anfordern können. Das Hauptquartier ist über die Frequenz 100 mit dem Langstreckenfunkgerät erreichbar."]];
+Außerdem steht innen Artellerie zur verfügung, die Sie über das Hauptquartier (Zeus) anfordern können. Das Hauptquartier ist über die Frequenz 80 mit dem Langstreckenfunkgerät erreichbar."]];
 player createDiaryRecord ["Diary", ["politische Lage", "Das Verhältniss der NATO (USA und Deutschland) und der afghanischen Regierung ist angespannt, da es in letzter Zeit zu zahlreichen zivilen Opfern kam.
  Die NATO darf nur noch in Afghanistan verweilen, da sie die Afghane ausbildet. Gehen Sie also vorischtig vor."]];
 player createDiaryRecord ["Diary", ["militärische Lage", "Rechen Sie überall mit Feindkontakt, besonders in der Nähe von Talibanhochburgen. Alle Straßen gelten von Minen geräumt,
@@ -42,7 +42,7 @@ case EAST: // OPFOR briefing goes here
 case RESISTANCE: // RESISTANCE/INDEPENDENT briefing goes here
 { 
 player createDiaryRecord ["Diary", ["militärische Mittel", "Ein Squad Amerikaner, die das Oberkommando innehaben und die Afghane ausbilden. Ein Squad Deutscher, die mittels Fennek und Drohne aufklären können. Ein Zug afghanischer Pioniere die im Minenräumen ausgebildet werden sollen. 
-Außerdem steht innen Artellerie zur verfügung, die Sie über das Hauptquartier (Zeus) anfordern können."]];
+Außerdem steht innen Artellerie zur verfügung, die die NATO über das Hauptquartier (Zeus) anfordern kann."]];
 player createDiaryRecord ["Diary", ["politische Lage", "Das Verhältniss der NATO (USA und Deutschland) und der afghanischen Regierung ist angespannt, da es in letzter Zeit zu zahlreichen zivilen Opfern kam.
  Die NATO darf nur noch in Afghanistan verweilen, da sie die Afghane ausbildet. Notieren sie jegliche verdächtige Tätigkeit der NATO und melden sie dies später ihrem Hauptquartier."]];
 player createDiaryRecord ["Diary", ["militärische Lage", "Rechen Sie überall mit Feindkontakt, besonders in der Nähe von Talibanhochburgen. Alle Straßen gelten von Minen geräumt,
