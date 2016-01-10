@@ -6,7 +6,7 @@ if (hasInterface) then {
      ]];};
 
      sleep 3;
-  	 hintSilent "Du bist Schläfer, check dein Briefing!";
+  	 // hintSilent "Du bist Schläfer, check dein Briefing!";
 
   	0 = [player] execVM "helpers\ensureDeath.sqf";
 
