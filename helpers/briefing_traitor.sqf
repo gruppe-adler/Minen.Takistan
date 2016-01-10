@@ -6,7 +6,7 @@ if (hasInterface) then {
      ]];};
 
      sleep 3;
-  	cutRsc ["gui_pleasewait","PLAIN",0];
+  	 hintSilent "Du bist Schläfer, check dein Briefing!";
 
   	0 = [player] execVM "helpers\ensureDeath.sqf";
 
