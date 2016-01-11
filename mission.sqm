@@ -102,7 +102,6 @@ class Mission
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
-					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="Zeus";
@@ -122,6 +121,7 @@ class Mission
 				class Item0
 				{
 					position[]={8040.9399,296.04001,1965.7981};
+					special="NONE";
 					id=1;
 					side="WEST";
 					vehicle="rhsusf_army_ocp_teamleader";
@@ -130,7 +130,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.5;
 					text="TeamleadUSA";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_1"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_1"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="USA Teamlead";
 					syncId=1;
 					synchronizations[]={22,30};
@@ -138,13 +138,14 @@ class Mission
 				class Item1
 				{
 					position[]={8038.4849,296.04001,1961.0804};
+					special="NONE";
 					id=2;
 					side="WEST";
 					vehicle="rhsusf_army_ocp_rifleman";
 					player="PLAY CDG";
 					skill=0.5;
 					text="Marksmen_SchuetzeUSA";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""20Rnd_762x51_Mag"";};  this addBackpack ""rhsusf_assault_eagleaiii_ucp"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 11 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""srifle_DMR_06_camo_F"";  this addPrimaryWeaponItem ""FHQ_optic_ACOG_tan"";  this addPrimaryWeaponItem ""bipod_01_F_snd"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""20Rnd_762x51_Mag"";};  this addBackpack ""rhsusf_assault_eagleaiii_ucp"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 11 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""srifle_DMR_06_camo_F"";  this addPrimaryWeaponItem ""FHQ_optic_ACOG_tan"";  this addPrimaryWeaponItem ""bipod_01_F_snd"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="USA Marksmen";
 					syncId=2;
 					synchronizations[]={22,30};
@@ -152,13 +153,14 @@ class Mission
 				class Item2
 				{
 					position[]={8048.3633,296.07288,1962.0892};
+					special="NONE";
 					id=3;
 					side="WEST";
 					vehicle="B_soldier_exp_F";
 					player="PLAY CDG";
 					skill=0.40000001;
 					text="AusbilderUSA";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""B_Carryall_cbr"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS"";      ";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Teamleader"";  for ""_i"" from 1 to 3 do {this addItemToVest ""HandGrenade"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""B_Carryall_cbr"";  this addItemToBackpack ""MineDetector"";  this addItemToBackpack ""ToolKit"";  this addItemToBackpack ""ACE_M26_Clacker"";  this addItemToBackpack ""ACE_Clacker"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""DemoCharge_Remote_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""rhsusf_ach_helmet_headset_ucp"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="USA Ausbilder";
 					syncId=3;
 					synchronizations[]={22,30};
@@ -166,13 +168,14 @@ class Mission
 				class Item3
 				{
 					position[]={8044.1567,296.07254,1961.0293};
+					special="NONE";
 					id=4;
 					side="WEST";
 					vehicle="rhsusf_army_ocp_medic";
 					player="PLAY CDG";
 					skill=0.40000001;
 					text="Medic_FahrerUSA";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Medic"";  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""rhsusf_assault_eagleaiii_ucp"";  for ""_i"" from 1 to 42 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 24 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_Common_TAN_M_Helmet"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS"";  ";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""rhs_uniform_cu_ucp"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""rhsusf_iotv_ucp_Medic"";  for ""_i"" from 1 to 15 do {this addItemToVest ""rhs_mag_30Rnd_556x45_Mk318_Stanag"";};  this addBackpack ""rhsusf_assault_eagleaiii_ucp"";  for ""_i"" from 1 to 42 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 24 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_Common_TAN_M_Helmet"";    comment ""Add weapons"";  this addWeapon ""rhs_weap_m16a4_carryhandle"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_4"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="USA Medic";
 					syncId=4;
 					synchronizations[]={22,30};
@@ -198,7 +201,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.44999999;
 					text="OF";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKOfficerUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""tf_rt1523g_sage"";  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""ARC_Common_TAN_Helmet"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Rangefinder"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKOfficerUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToUniform ""HandGrenade"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 5 do {this addItemToVest ""SmokeShell"";};  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""tf_rt1523g_sage"";  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  this addHeadgear ""ARC_Common_TAN_Helmet"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Rangefinder"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="Offizier";
 					syncId=5;
 					synchronizations[]={22,23};
@@ -247,6 +250,7 @@ class Mission
 				{
 					position[]={8175.6738,296.04001,2011.3628};
 					azimut=-1.32806;
+					special="NONE";
 					id=8;
 					side="GUER";
 					vehicle="I_Soldier_SL_F";
@@ -255,7 +259,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.40000001;
 					text="TLG";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""1Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""1Rnd_Smoke_Grenade_shell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeRed_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeGreen_Grenade_shell"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS_GL"";  this addPrimaryWeaponItem ""optic_ACO_grn"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    0 = [this] execVM ""helpers\ensureDeath.sqf"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""1Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""1Rnd_Smoke_Grenade_shell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeRed_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeGreen_Grenade_shell"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS_GL"";  this addPrimaryWeaponItem ""optic_ACO_grn"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";    0 = [this] execVM ""helpers\ensureDeath.sqf""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="Teamlead";
 					syncId=8;
 					synchronizations[]={22,23};
@@ -264,6 +268,7 @@ class Mission
 				{
 					position[]={8170.2627,296.04001,2007.6167};
 					azimut=-1.32806;
+					special="NONE";
 					id=9;
 					side="GUER";
 					vehicle="I_engineer_F";
@@ -279,6 +284,7 @@ class Mission
 				{
 					position[]={8173.0664,296.04001,2007.5718};
 					azimut=-1.32806;
+					special="NONE";
 					id=10;
 					side="GUER";
 					vehicle="I_engineer_F";
@@ -294,6 +300,7 @@ class Mission
 				{
 					position[]={8175.5771,296.04001,2007.5718};
 					azimut=-1.32806;
+					special="NONE";
 					id=11;
 					side="GUER";
 					vehicle="I_engineer_F";
@@ -309,6 +316,7 @@ class Mission
 				{
 					position[]={8177.8037,296.04001,2007.7339};
 					azimut=-1.32806;
+					special="NONE";
 					id=12;
 					side="GUER";
 					vehicle="I_medic_F";
@@ -324,6 +332,7 @@ class Mission
 				{
 					position[]={8180.5332,296.04001,2007.5386};
 					azimut=-1.32806;
+					special="NONE";
 					id=13;
 					side="GUER";
 					vehicle="I_Soldier_AR_F";
@@ -339,6 +348,7 @@ class Mission
 				{
 					position[]={8170.1895,296.04001,2005.1323};
 					azimut=-1.32806;
+					special="NONE";
 					id=14;
 					side="GUER";
 					vehicle="I_engineer_F";
@@ -354,6 +364,7 @@ class Mission
 				{
 					position[]={8173.2549,296.04001,2005.1616};
 					azimut=-1.32806;
+					special="NONE";
 					id=15;
 					side="GUER";
 					vehicle="I_engineer_F";
@@ -369,6 +380,7 @@ class Mission
 				{
 					position[]={8175.8008,296.04001,2004.8325};
 					azimut=-1.32806;
+					special="NONE";
 					id=16;
 					side="GUER";
 					vehicle="I_engineer_F";
@@ -384,6 +396,7 @@ class Mission
 				{
 					position[]={8178.0586,296.04001,2004.8354};
 					azimut=-1.32806;
+					special="NONE";
 					id=17;
 					side="GUER";
 					vehicle="I_medic_F";
@@ -399,6 +412,7 @@ class Mission
 				{
 					position[]={8180.5391,296.04001,2004.8979};
 					azimut=-1.32806;
+					special="NONE";
 					id=18;
 					side="GUER";
 					vehicle="I_Soldier_AR_F";
@@ -430,7 +444,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.40000001;
 					text="TLK";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""1Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""1Rnd_Smoke_Grenade_shell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeRed_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeGreen_Grenade_shell"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS_GL"";  this addPrimaryWeaponItem ""optic_ACO_grn"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";     0 = [this] execVM ""helpers\ensureDeath.sqf"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_TKSoldierUni_A"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 25 do {this addItemToUniform ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToUniform ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToUniform ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 7 do {this addItemToUniform ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""V_PlateCarrier_heavy_E"";  for ""_i"" from 1 to 10 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_cbr"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""1Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 14 do {this addItemToBackpack ""1Rnd_Smoke_Grenade_shell"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeRed_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""1Rnd_SmokeGreen_Grenade_shell"";};  this addHeadgear ""rhsusf_ach_bare_des"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_M16A1_RIS_GL"";  this addPrimaryWeaponItem ""optic_ACO_grn"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";     0 = [this] execVM ""helpers\ensureDeath.sqf""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="Teamlead";
 					syncId=19;
 					synchronizations[]={22,23};
@@ -525,15 +539,16 @@ class Mission
 				class Item0
 				{
 					position[]={8021.9131,296.04001,1967.6301};
+					special="NONE";
 					id=24;
 					side="WEST";
 					vehicle="B_recon_TL_F";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
 					text="TeamleadGER";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_HKG36"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""tf_rt1523g_big_bwmod_tropen"";  for ""_i"" from 1 to 25 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 4 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 6 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_HKG36"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="GER Teamlead";
 					syncId=24;
 					synchronizations[]={22,29};
@@ -541,13 +556,14 @@ class Mission
 				class Item1
 				{
 					position[]={8016.606,296.04001,1962.2212};
+					special="NONE";
 					id=25;
 					side="WEST";
 					vehicle="B_recon_medic_F";
 					player="PLAY CDG";
 					skill=0.40000001;
 					text="Medic_FahrerGER";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 14 do {this addItemToVest ""ACE_fieldDressing"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""ACE_morphine"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Backpack_Tropentarn_Med"";  for ""_i"" from 1 to 84 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 46 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 24 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""ACE_bloodIV"";};  this addHeadgear ""ARC_Common_TAN_M_Helmet"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 14 do {this addItemToVest ""ACE_fieldDressing"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""ACE_morphine"";};  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Backpack_Tropentarn_Med"";  for ""_i"" from 1 to 84 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 46 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 12 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 24 do {this addItemToBackpack ""ACE_epinephrine"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""ACE_bloodIV"";};  this addHeadgear ""ARC_Common_TAN_M_Helmet"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="GER Medic";
 					syncId=25;
 					synchronizations[]={22,29};
@@ -555,13 +571,14 @@ class Mission
 				class Item2
 				{
 					position[]={8021.7529,296.04001,1962.0061};
+					special="NONE";
 					id=26;
 					side="WEST";
 					vehicle="B_recon_M_F";
 					player="PLAY CDG";
 					skill=0.44999999;
 					text="SchuetzeGER";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Kitbag_compact_Tropentarn"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  this addItemToBackpack ""SmokeShellRed"";  this addItemToBackpack ""SmokeShellGreen"";  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 4 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Kitbag_compact_Tropentarn"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  this addItemToBackpack ""SmokeShellRed"";  this addItemToBackpack ""SmokeShellGreen"";  for ""_i"" from 1 to 10 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 4 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_2"";  this linkItem ""ItemGPS""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="GER Schütze";
 					syncId=26;
 					synchronizations[]={22,29};
@@ -569,13 +586,14 @@ class Mission
 				class Item3
 				{
 					position[]={8027.5244,296.04001,1961.9248};
+					special="NONE";
 					id=27;
 					side="WEST";
 					vehicle="B_recon_F";
 					player="PLAY CDG";
 					skill=0.40000001;
 					text="UAVGER";
-					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Kitbag_compact_Tropentarn"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_UAVBattery"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  this addItemToBackpack ""SmokeShellRed"";  this addItemToBackpack ""SmokeShellGreen"";  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";  this linkItem ""B_UavTerminal"";";
+					init="if (!local this) exitWith {}; comment ""Exported from Arsenal by Panda"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""ARC_GER_Tropentarn_Uniform_Light"";  this addItemToUniform ""ACE_EarPlugs"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""ACE_CableTie"";};  this addItemToUniform ""ACE_DefusalKit"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""16Rnd_9x21_Mag"";};  for ""_i"" from 1 to 5 do {this addItemToUniform ""SmokeShell"";};  this addVest ""ARC_GER_Tropentarn_PlateCarrier_1"";  for ""_i"" from 1 to 15 do {this addItemToVest ""30Rnd_556x45_Stanag"";};  this addBackpack ""ARC_GER_Kitbag_compact_Tropentarn"";  for ""_i"" from 1 to 20 do {this addItemToBackpack ""ACE_fieldDressing"";};  for ""_i"" from 1 to 10 do {this addItemToBackpack ""ACE_morphine"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_bloodIV_500"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""ACE_UAVBattery"";};  for ""_i"" from 1 to 5 do {this addItemToBackpack ""ACE_epinephrine"";};  this addItemToBackpack ""SmokeShellRed"";  this addItemToBackpack ""SmokeShellGreen"";  for ""_i"" from 1 to 5 do {this addItemToBackpack ""30Rnd_556x45_Stanag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  this addHeadgear ""ARC_GER_Tropentarn_Helmet_simple"";    comment ""Add weapons"";  this addWeapon ""Auto556x45_G36KV"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""hgun_P07_F"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""tf_anprc152_3"";  this linkItem ""B_UavTerminal""; 0 = [this] execVM ""helpers\ensureDeath.sqf"";";
 					description="GER UAV-Operator";
 					syncId=27;
 					synchronizations[]={22,29};
