@@ -102,6 +102,7 @@ class Mission
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="Zeus";
@@ -543,7 +544,7 @@ class Mission
 					id=24;
 					side="WEST";
 					vehicle="B_recon_TL_F";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
