@@ -12,7 +12,6 @@ class Mission
 		"BWA3_Factionennek",
 		"rhsusf_c_hmmwv",
 		"rhsusf_vehicles",
-		"COREVLiteVehiclesEXTAF_LandRover",
 		"rhsusf_c_fmtv",
 		"A3_Characters_F_INDEP",
 		"ace_vehiclelock",
@@ -33,7 +32,10 @@ class Mission
 		"ace_weather",
 		"A3_Characters_F_OPFOR",
 		"A3_Characters_F_Civil",
-		"A3_Modules_F_ObjectModifiers"
+		"A3_Modules_F_ObjectModifiers",
+		"rhs_c_cars",
+		"cup_misc3_config",
+		"cup_takistan_config"
 	};
 	addOnsAuto[]=
 	{
@@ -61,13 +63,13 @@ class Mission
 		"BWA3_Factionennek",
 		"rhsusf_c_hmmwv",
 		"rhsusf_vehicles",
-		"COREVLiteVehiclesEXTAF_LandRover",
+		"rhs_c_cars",
 		"rhsusf_c_fmtv",
 		"A3_Modules_F_Curator_Mines",
 		"a3_weapons_f_explosives",
 		"CAStructures_E_Misc_Misc_Market",
-		"aia_misc3_config",
-		"aia_takistan_config"
+		"cup_misc3_config",
+		"cup_takistan_config"
 	};
 	randomSeed=6305974;
 	class Intel
@@ -2600,7 +2602,7 @@ class Mission
 			azimut=180;
 			id=90;
 			side="EMPTY";
-			vehicle="COREV_O_TME_LandRover_MG";
+			vehicle="rhs_tigr_m_3camo_vdv";
 			skill=0.40000001;
 			init="clearWeaponCargo this; clearMagazineCargo this; clearItemCargoGlobal this;";
 			syncId=56;
@@ -3428,11 +3430,12 @@ class Intro
 {
 	addOns[]=
 	{
-		"aia_takistan_config"
+		"aia_takistan_config",
+		"cup_takistan_config"
 	};
 	addOnsAuto[]=
 	{
-		"aia_takistan_config"
+		"cup_takistan_config"
 	};
 	randomSeed=6926937;
 	class Intel
@@ -3457,11 +3460,12 @@ class OutroWin
 {
 	addOns[]=
 	{
-		"aia_takistan_config"
+		"aia_takistan_config",
+		"cup_takistan_config"
 	};
 	addOnsAuto[]=
 	{
-		"aia_takistan_config"
+		"cup_takistan_config"
 	};
 	randomSeed=1523579;
 	class Intel
@@ -3486,11 +3490,12 @@ class OutroLoose
 {
 	addOns[]=
 	{
-		"aia_takistan_config"
+		"aia_takistan_config",
+		"cup_takistan_config"
 	};
 	addOnsAuto[]=
 	{
-		"aia_takistan_config"
+		"cup_takistan_config"
 	};
 	randomSeed=5041509;
 	class Intel

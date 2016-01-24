@@ -1,35 +1,17 @@
 blufor_uniform = [
-	"U_TKLocalUni_A",
-	"U_TKLocalUni_B",
-	"U_TKLocalUni_C",
-	"U_TKLocalUni_D",
-	"U_TKLocalUni_E",
-	"U_TKLocalUni_F",
-	"U_TKLocalCombat_A",
-	"U_TKLocalCombat_B",
-	"U_TKLocalCombat_C",
-	"U_TKLocalCombat_D",
-	"U_TKLocalCombat_E"
+	"rhs_chdkz_uniform_5",
+	"rhs_chdkz_uniform_4",
+	"rhs_chdkz_uniform_3",
+	"rhs_chdkz_uniform_2",
+	"rhs_chdkz_uniform_1"
 ];
 
 
 
 blufor_random_helmet = [
-	"H_Hat_Face_Wrap_Black",
-	"H_Hat_Taqiyah_A",
-	"H_Hat_Taqiyah_B",
-	"H_Hat_Taqiyah_C",
-	"H_Hat_Taqiyah_D",
-	"H_Hat_Taqiyah_E",
-	"H_Hat_Pagri",
-	"H_Hat_Pagri_B",
-	"H_Hat_Pagri_C",
-	"H_Hat_Turban_A",
-	"H_Hat_Turban_B",
-	"H_Hat_Turban_C",
-	"H_Hat_Turban_D",
-	"H_Hat_Turban_E",
-	"H_Hat_Pakol","H_Hat_Pakol","H_Hat_Pakol","H_Hat_Pakol","H_Hat_Pakol","H_Hat_Pakol"
+	"H_ShemagOpen_khk",
+	"H_ShemagOpen_tan",
+	"H_Shemag_olive"
 ];
 
 _addItemsToUniform = {
@@ -70,6 +52,17 @@ set_akm_ammo = {
 	[this, "rhs_30Rnd_762x39mm", 5] call _addMagazinesToVest; // 5 (1 in der waffe)
 	[this, "rhs_30Rnd_762x39mm_tracer", 5] call _addMagazinesToVest; // 3
 };
+
+_taliBeard = [
+"TRYK_Beard_BK","TRYK_Beard_BK","TRYK_Beard_BK","TRYK_Beard_BK",
+"TRYK_Beard_BK2","TRYK_Beard_BK2","TRYK_Beard_BK2","TRYK_Beard_BK2",
+"TRYK_Beard_BK3","TRYK_Beard_BK3","TRYK_Beard_BK3","TRYK_Beard_BK3",
+"TRYK_Beard_BK4","TRYK_Beard_BK4","TRYK_Beard_BK4","TRYK_Beard_BK4",
+"TRYK_Beard_Gr",
+"TRYK_Beard_Gr2",
+"TRYK_Beard_Gr3",
+"TRYK_Beard_Gr4"
+] call BIS_fnc_selectRandom;
 
 blufor_basic = {
 	this = _this select 0;
@@ -115,7 +108,9 @@ blufor_AT = {
 	
 	this forceAddUniform (blufor_uniform call BIS_fnc_selectRandom);
 	this addVest "rhsusf_spc_iar";
-	this addHeadgear (blufor_random_helmet call BIS_fnc_selectRandom);
+	if (random 2 > 0.5) then {
+		this addHeadgear (blufor_random_helmet call BIS_fnc_selectRandom);
+	};
 	this addBackpack "B_Carryall_khk";
 
 	[this] call set_akm_ammo;
@@ -124,6 +119,7 @@ blufor_AT = {
 	[this, "SmokeShellRed", 2] call _addMagazinesToVest;
 	[this, "HandGrenade", 1] call _addMagazinesToVest;
 
+	this addGoggles _taliBeard;
 
 	this addWeapon "Binocular";
 	this addWeapon (blufor_random_primaryweapon call BIS_fnc_selectRandom);
@@ -153,8 +149,10 @@ blufor_AT = {
 	
 	this forceAddUniform (blufor_uniform call BIS_fnc_selectRandom);
 	this addVest "rhsusf_spc";
-	this addHeadgear (blufor_random_helmet call BIS_fnc_selectRandom);
-	this addBackpack "rhsusf_assault_eagleaiii_coy";
+	if (random 2 > 0.5) then {
+		this addHeadgear (blufor_random_helmet call BIS_fnc_selectRandom);
+	};
+	this addBackpack "rhs_sidor";
 	
 	[this] call set_akm_ammo;
 	[this, "SmokeShell", 1] call _addMagazinesToVest;
@@ -162,10 +160,13 @@ blufor_AT = {
 	[this, "HandGrenade", 2] call _addMagazinesToVest;
 
 	
+	this addGoggles _taliBeard;
 
 	this addWeapon "Binocular";
 	this addWeapon (blufor_random_primaryweapon call BIS_fnc_selectRandom);
 	this addPrimaryWeaponItem "optic_Aco";
+
+
 
 	
 	if ((random 4) > 3) then {
