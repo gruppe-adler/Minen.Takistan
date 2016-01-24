@@ -13,6 +13,19 @@ _blufor_uniform = [
 	"U_TKLocalCombat_E"
 ];
 
+_blufor_uniform_rhs = [
+	"rds_uniform_Woodlander1",
+	"rds_uniform_Woodlander4",
+	"SMA_UNIFORMS_BLACK",
+	"SMA_UNIFORMS_TAN",
+	"U_Rangemaster",
+	"rds_uniform_Profiteer3",
+	"U_TKLocalCombat_A",
+	"U_TKLocalCombat_B",
+	"U_TKLocalCombat_C",
+	"U_TKLocalCombat_D",
+	"U_TKLocalCombat_E"
+];
 
 
 _blufor_random_helmet = [
@@ -31,6 +44,14 @@ _blufor_random_helmet = [
 	"H_Hat_Turban_D",
 	"H_Hat_Turban_E",
 	"H_Hat_Pakol","H_Hat_Pakol","H_Hat_Pakol","H_Hat_Pakol","H_Hat_Pakol","H_Hat_Pakol"
+];
+
+_blufor_random_helmet_rhs = [
+	"H_ShemagOpen_khk",
+	"H_ShemagOpen_tan",
+	"H_Shemag_olive",
+	"H_Bandanna_gry",
+	"H_Cap_blk"
 ];
 	
 
@@ -52,6 +73,7 @@ _blufor_random_helmet = [
 	comment "Add containers";
 	
 	this forceAddUniform (_blufor_uniform call BIS_fnc_selectRandom);
-	
-	this addHeadgear (_blufor_random_helmet call BIS_fnc_selectRandom);
+	if (random 2 > 1) then {
+	this addHeadgear (_blufor_random_helmet_rhs call BIS_fnc_selectRandom);
+};
 	
